@@ -6,25 +6,25 @@ This project demonstrates how to apply the **St. Nicolas House Algorithm (SNHA)*
 
 ---
 
-## 📌 Features
+## Features
 
-* ✅ Loads and preprocesses the Wisconsin Breast Cancer dataset using `pandas`.
-* ✅ Computes correlation matrices (`spearman`) between features.
-* ✅ Applies SNHA to derive a directed/undirected feature interaction graph.
-* ✅ Visualizes the correlation graph and SNHA-inferred network using `matplotlib`.
-* ✅ Converts the SNHA network into a `NetworkX` graph for further analysis.
-* ✅ Calculates key centrality metrics:
+*  Loads and preprocesses the Wisconsin Breast Cancer dataset using `pandas`.
+*  Computes correlation matrices (`spearman`) between features.
+*  Applies SNHA to derive a directed/undirected feature interaction graph.
+*  Visualizes the correlation graph and SNHA-inferred network using `matplotlib`.
+*  Converts the SNHA network into a `NetworkX` graph for further analysis.
+*  Calculates key centrality metrics:
 
   * **Degree Centrality**
   * **Betweenness Centrality**
   * **Eigenvector Centrality**
-* ✅ Identifies the most influential/central features in the dataset.
-* ✅ Visualizes node importance through graph layout and size scaling.
-* ✅ Ready for export to GraphML/GML for Gephi, Cytoscape, or further machine learning analysis.
+*  Identifies the most influential/central features in the dataset.
+*  Visualizes node importance through graph layout and size scaling.
+*  Ready for export to GraphML/GML for Gephi, Cytoscape, or further machine learning analysis.
 
 ---
 
-## 🧰 Tools & Libraries Used
+##  Tools & Libraries Used
 
 * `snha4py` – SNHA Python implementation
 * `pandas` – Data handling
@@ -34,13 +34,13 @@ This project demonstrates how to apply the **St. Nicolas House Algorithm (SNHA)*
 
 ---
 
-## 📈 Use Case
+##  Use Case
 
 Understanding how different features (such as cell radius, texture, perimeter, etc.) interact within malignant or benign tumors can help uncover diagnostic patterns. SNHA helps by generating a statistically meaningful network of these interactions, and NetworkX centrality metrics highlight which features are structurally important.
 
 ---
 
-## 📁 Folder Structure
+##  Folder Structure
 
 ```
 .
@@ -55,7 +55,7 @@ Understanding how different features (such as cell radius, texture, perimeter, e
 
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 
 1. **Clone the repository:**
 
@@ -78,7 +78,7 @@ Understanding how different features (such as cell radius, texture, perimeter, e
 
 ---
 
-## 📀 Output
+##  Output
 
 * Graphical plots of:
 
@@ -91,7 +91,7 @@ Understanding how different features (such as cell radius, texture, perimeter, e
 
 ---
 
-### 👤 Author
+###  Author
 
 **Soumyajit Singha Roy**
 Data Science | Network Analysis | SNHA Researcher
